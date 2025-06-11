@@ -7,8 +7,6 @@ Here’s a complete and professional `README.md` file tailored for your **Book C
 
 A Django RESTful API for managing a book catalog, with support for custom API key authentication and book cover image uploads.
 
----
-
  🚀 Features
 
 - 📖 CRUD operations for books
@@ -17,7 +15,6 @@ A Django RESTful API for managing a book catalog, with support for custom API ke
 - ✅ Input validation (ISBN, page count, published date)
 - 🔄 Tested via Postman collection
 
----
 ````
 
  🛠️ Setup Instructions

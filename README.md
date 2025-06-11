@@ -1,4 +1,3 @@
-Here’s a complete and professional `README.md` file tailored for your **Book Catalog RESTful API with authentication and file upload**, as per the assignment requirements.
 
 ---
 

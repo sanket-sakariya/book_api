@@ -3,13 +3,13 @@ Here’s a complete and professional `README.md` file tailored for your **Book C
 ---
 
 ````markdown
-# 📚 Book Catalog API
+ 📚 Book Catalog API
 
 A Django RESTful API for managing a book catalog, with support for custom API key authentication and book cover image uploads.
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
 - 📖 CRUD operations for books
 - 🔐 API key-based authentication
@@ -20,38 +20,38 @@ A Django RESTful API for managing a book catalog, with support for custom API ke
 ---
 ````
 
-## 🛠️ Setup Instructions
+ 🛠️ Setup Instructions
 
-### 1. Clone the repository
+ 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/book_api.git
 cd book_api
+```
 
-
-### 2. Create & activate virtual environment
+ 2. Create & activate virtual environment
 
 ```bash
 python -m venv venv
 venv\Scripts\activate  # Windows
-# OR
+ OR
 source venv/bin/activate  # Linux/Mac
 ```
 
-### 3. Install dependencies
+ 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Apply migrations
+ 4. Apply migrations
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5. Run the server
+ 5. Run the server
 
 ```bash
 python manage.py runserver
@@ -59,9 +59,9 @@ python manage.py runserver
 
 ---
 
-## 🔐 API Key Configuration
+ 🔐 API Key Configuration
 
-### Option 1: Use `.env` file
+ Option 1: Use `.env` file
 
 Create a `.env` file in your project root:
 
@@ -77,7 +77,7 @@ from decouple import config
 API_KEYS = config("API_KEYS").split(",")
 ```
 
-### Option 2: Hard-code (Not Recommended)
+ Option 2: Hard-code (Not Recommended)
 
 ```python
 API_KEYS = ["valid-api-key"]
@@ -85,9 +85,9 @@ API_KEYS = ["valid-api-key"]
 
 ---
 
-## 🧪 Postman Testing
+ 🧪 Postman Testing
 
-### 📤 Import Postman Collection
+ 📤 Import Postman Collection
 
 1. Open Postman
 2. Go to **Collections → Import**
@@ -95,7 +95,7 @@ API_KEYS = ["valid-api-key"]
 
 ---
 
-## 📬 API Endpoints Summary
+ 📬 API Endpoints Summary
 
 | Method | Endpoint                        | Auth Required | Description                |
 | ------ | ------------------------------- | ------------- | -------------------------- |
@@ -108,7 +108,7 @@ API_KEYS = ["valid-api-key"]
 
 ---
 
-## ✅ Validation Rules
+ ✅ Validation Rules
 
 * `isbn`: Must be exactly 13 characters
 * `page_count`: Minimum of 1
@@ -156,7 +156,7 @@ API_KEYS = ["valid-api-key"]
 ```
 
 
-## 👨‍💻 Developed By
+ 👨‍💻 Developed By
 
 [GitHub Profile](https://github.com/sanket-sakariya)
 

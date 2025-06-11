@@ -18,6 +18,7 @@ A Django RESTful API for managing a book catalog, with support for custom API ke
 - 🔄 Tested via Postman collection
 
 ---
+````
 
 ## 🛠️ Setup Instructions
 
@@ -26,7 +27,7 @@ A Django RESTful API for managing a book catalog, with support for custom API ke
 ```bash
 git clone https://github.com/yourusername/book_api.git
 cd book_api
-````
+
 
 ### 2. Create & activate virtual environment
 
@@ -159,13 +160,4 @@ API_KEYS = ["valid-api-key"]
 
 [GitHub Profile](https://github.com/sanket-sakariya)
 
-```
-
----
-
-Let me know if you'd like:
-- A `.gitignore` file
-- A sample `.env`
-- The ready-made `book_api_collection.json` file  
-or anything else before final submission!
 ```

@@ -21,7 +21,7 @@ A Django RESTful API for managing a book catalog, with support for custom API ke
  1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/book_api.git
+git clone https://github.com/sanket-sakariya/book_api.git
 cd book_api
 ```
 
